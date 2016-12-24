@@ -1,0 +1,28 @@
+.section--hero {
+	position: relative;
+	height: 100vh;
+	min-height: 700px;
+	background-color: palette(blue);
+
+	h1 {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		color: palette(green, light);
+		font-size: em(180px);
+		line-height: 1.1;
+		transform: translateY(-50%);
+	}
+
+	.text-wrap {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	p {
+		&:first-child {
+			margin-top: 40px;
+		}
+	}
+}

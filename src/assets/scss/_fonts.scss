@@ -1,1 +1,50 @@
 // @include font-face('Font Name', '/path/to/font', 400, normal);
+
+// Brandon
+@include font-face('Brandon Text', '../fonts/HVD Fonts - BrandonText-Regular', 400, normal);
+
+@include font-face('Brandon Text', '../fonts/HVD Fonts - BrandonText-Medium', 500, normal);
+
+@include font-face('Brandon Text', '../fonts/HVD Fonts - BrandonText-Bold', 700, normal);
+
+@include font-face('Brandon Text', '../fonts/HVD Fonts - BrandonText-Black', 900, normal);
+
+@include font-face('Brandon Grotesque', '../fonts/Brandon_bld', 700, normal);
+@include font-face('Brandon Grotesque', '../fonts/Brandon_blk', 900, normal);
+
+$sans: 'Brandon Text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$sans-alt: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+$serif: 'PT Serif', serif;
+
+h1 {
+	font-family: $sans-alt;
+	font-weight: 900;
+	font-feature-settings: 'ss01';
+}
+
+h2 {
+	font-family: $sans-alt;
+	font-weight: 700;
+	font-feature-settings: 'ss01';
+}
+
+h3,
+h4,
+li {
+	font-family: $sans;
+	font-feature-settings: 'ss01';
+}
+
+p {
+	color: palette(purple, dark);
+	font-family: $sans;
+	font-size: em(16px);
+	font-weight: 500;
+	font-feature-settings: 'ss01';
+
+	&.text--large {
+		font-size: em(19px);
+		line-height: 1.5;
+	}
+}

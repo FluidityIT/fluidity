@@ -5,8 +5,29 @@ $palettes: (
 	black: (
 		base: #000000
 	),
-	grey: (
-		base: #808080,
-		dark: #333333
+	blue: (
+		dark: #80C5A9,
+		base: #D3E9DE,
+		light: #EEF6F2
+	),
+	green: (
+		dark: #D1D86F,
+		base: #ECEFCB,
+		light: #F7F8EB
+	),
+	purple: (
+		dark: #50559E,
+		base: #DBDAED,
+		light: #F1F0F8
+	),
+	pink: (
+		dark: #E85598,
+		base: #F6C6DC,
+		light: #FCE9F2
+	),
+	orange: (
+		dark: #F1A662,
+		base: #FBDDC1,
+		light: #FDF1E7
 	)
 );

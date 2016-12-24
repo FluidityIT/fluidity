@@ -1,0 +1,39 @@
+.section--services {
+	background-color: palette(green);
+	height: 500px;
+}
+
+.services--text {
+	margin-top: 88px;
+
+	p {
+		font-size: em(19px);
+	}
+}
+
+.nav--services {
+	margin-top: 88px;
+	border: 8px solid palette(orange, dark);
+
+	ul {
+		padding: 10px 40px;
+	}
+
+	li {
+		color: palette(blue, dark);
+		font-family: $sans;
+		font-size: em(32px);
+		line-height: 1.5;
+		text-transform: lowercase;
+		cursor: pointer;
+		transition: color ease-in-out $transition-time;
+
+		&:hover {
+			color: palette(orange, dark);
+		}
+
+		&.current {
+			color: palette(orange, dark);
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.header--main {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	padding: 30px 0;
+	pointer-events: none;
+
+	.logo {
+		width: 350px;
+	}
+}
+
+.nav--main {
+	position: relative;
+	top: -70px;
+	width: 100%;
+	pointer-events: all;
+
+	ul {
+		float: right;
+		width: 400px;
+	}
+
+	li {
+		display: inline-block;
+		width: 25%;
+		margin-right: -4px;
+		font-family: $sans;
+		font-size: em(20px);
+		text-transform: lowercase;
+		text-align: center;
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+		a {
+			width: 25%;
+			padding-bottom: 10px;
+			color: palette(pink, dark);
+			text-decoration: none;
+		}
+	}
+
+	.two:hover ~ hr {
+		margin-left: 25%;
+	}
+
+	.three:hover ~ hr {
+		margin-left: 50%;
+	}
+
+	.four:hover ~ hr {
+		margin-left: 75%;
+	}
+
+	hr {
+		width: 25%;
+		height: 4px;
+		margin: 10px 0 0;
+		border: 0;
+		background-color: palette(pink, dark);
+		transition: ease-in-out $transition-time;
+	}
+}

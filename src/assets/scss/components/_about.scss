@@ -1,0 +1,49 @@
+.section--about {
+	background-color: palette(pink);
+	padding: 50px 0;
+	min-height: 500px;
+}
+
+.profile {
+	position: relative;
+	color: palette(pink, dark);
+
+	.profile__image {
+		height: 200px;
+
+		img {
+			width: 80%;
+			float: right;
+			border-radius: 50%;
+		}
+	}
+
+	h3 {
+		position: absolute;
+		top: 25px;
+		margin: 0;
+		font-size: em(52px);
+		text-transform: lowercase;
+	}
+
+	.profile__details {
+		position: absolute;
+		top: 110px;
+
+		h4 {
+			margin: 0;
+			font-size: em(28px);
+			text-transform: lowercase;
+		}
+
+		a {
+			color: palette(pink, dark);
+			text-decoration: none;
+		}
+	}
+
+	p {
+		position: absolute;
+		margin-top: 50px;
+	}
+}

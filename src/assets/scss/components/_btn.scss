@@ -1,0 +1,17 @@
+.btn {
+	width: 100%;
+	font-family: $sans;
+	font-size: em(28px);
+	transition: all ease-in-out $transition-time;
+}
+
+.btn--primary {
+	border: 4px solid palette(orange, dark);
+	background-color: palette(orange, dark);
+	color: palette(pink, light);
+
+	&:hover {
+		background-color: transparent;
+		color: palette(orange, dark);
+	}
+}
