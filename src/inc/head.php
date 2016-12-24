@@ -13,7 +13,7 @@
 		<meta name="msapplication-tap-highlight" content="no" />
 
 		<!-- page info -->
-		<title>barebones.io</title>
+		<title>fluidity</title>
 		<meta name="keywords" content=""/>
 		<meta name="description" content="">
 		<link rel="icon" type="image/png" href="assets/images/.png"/>
@@ -23,6 +23,10 @@
 
 		<!-- scripts -->
 		<script src="/assets/js/scripts.js" type="text/javascript"></script>
+		<script src="https://use.fontawesome.com/044d29add3.js"></script>
+
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 
 		<!-- IE specifics -->
 		<!--[if IE]><!-->
