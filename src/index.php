@@ -118,16 +118,16 @@
 			<div class="column large-7">
 				<form class="form form--contact">
 					<div class="input--wrap">
-						<label>name <input class="input input--text" type="text" placeholder="john doe"/></label>
+						<label>name *<input class="input input--text" type="text" placeholder="john doe" required/></label>
 					</div>
 					<div class="input--wrap">
-						<label>email <input class="input input--email" type="email" placeholder="john@domain.com"/></label>
+						<label>email *<input class="input input--email" type="email" placeholder="john@domain.com" required/></label>
 					</div>
 					<div class="input--wrap">
 						<label>phone <input class="input input--text" type="text" placeholder="+44 (0)00000 000000"/></label>
 					</div>
 					<div class="input--wrap">
-						<label>message <textarea class="input input--textarea" placeholder="your message"></textarea></label>
+						<label>message *<textarea class="input input--textarea" placeholder="your message" required></textarea></label>
 					</div>
 					<input type="submit" class="btn btn--primary" value="submit">
 				</form>
