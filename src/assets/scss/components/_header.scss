@@ -1,5 +1,5 @@
 .header--main {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	width: 100%;
 	padding: 30px 0;
@@ -42,15 +42,18 @@
 		}
 	}
 
-	.two:hover ~ hr {
+	.two:hover ~ hr,
+	.two.selected ~ hr {
 		margin-left: 25%;
 	}
 
-	.three:hover ~ hr {
+	.three:hover ~ hr,
+	.three.selected ~ hr {
 		margin-left: 50%;
 	}
 
-	.four:hover ~ hr {
+	.four:hover ~ hr,
+	.four.selected ~ hr {
 		margin-left: 75%;
 	}
 
