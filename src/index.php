@@ -18,45 +18,46 @@
 	<div class="page-section section--services" id="services">
 		<div class="row">
 			<div class="column large-7">
-				<div class="services--text text--branding">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
-					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-				</div>
-				<!-- <div class="services--text tex--design">
+				<div id="branding" class="services--text text--branding show">
+					<p>Branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding branding</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
 					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
 				</div>
-				<div class="services--text text--development">
+				<div id="design" class="services--text text--design hidden">
+					<p>Design design design design design design design design design design design design design design design design design design design design design design design design design design design design </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
 					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 				</div>
-				<div class="services--text text--social">
+				<div id="development" class="services--text text--development hidden">
+					<p>Development development development development development development development development development development development development development development development development development </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
 					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 				</div>
-				<div class="services--text text--cloud">
+				<div id="social" class="services--text text--social hidden">
+					<p>Social social social social social social social social social social social social social social social social social social social social social social social social social social social social social </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
 					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 				</div>
-				<div class="services--text text--support">
+				<div id="services" class="services--text text--cloud hidden">
+					<p>Cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud cloud </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
 					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-				</div> -->
+				</div>
+				<div id="support" class="services--text text--support hidden">
+					<p>Support support support support support support support support support support support support support support support support support support support support support support support support support </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
+					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
+				</div>
 			</div>
 			<div class="column large-5">
 				<div class="nav nav--services">
 					<ul>
-						<li>branding</li>
-						<li>design</li>
-						<li class="current">development</li>
-						<li>social</li>
-						<li>cloud services</li>
-						<li>it support</li>
+						<li id="branding" class="current">branding</li>
+						<li id="design">design</li>
+						<li id="development">development</li>
+						<li id="social">social</li>
+						<li id="services">cloud services</li>
+						<li id="support">it support</li>
 					</ul>
 				</div>
 			</div>
