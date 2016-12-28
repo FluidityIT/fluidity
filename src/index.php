@@ -1,8 +1,8 @@
 <?php include('inc/head.php') ?>
 <?php include('inc/header.php') ?>
 
-<main class="page-wrapper page-wrapper--index" id="home">
-	<div class="page-section section--hero">
+<main class="page-wrapper page-wrapper--index">
+	<div class="page-section section--hero" id="index">
 		<div class="row">
 			<div class="column small-12 column-relative">
 				<h1>experience it.</h1>
