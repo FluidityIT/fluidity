@@ -17,7 +17,9 @@
 	span {
 		position: absolute;
 		top: -140px;
-		left: 35px;
+		bottom: 0;
+		left: -100px;
+		overflow: hidden;
 		color: palette(pink, dark);
 		font-family: $sans;
 		font-size: em(680px);
