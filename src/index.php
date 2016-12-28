@@ -26,7 +26,6 @@
 				<!-- <div class="services--text tex--design">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
 					<p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p>Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 				</div>
 				<div class="services--text text--development">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
@@ -96,11 +95,11 @@
 			<div class="column large-4">
 				<div class="profile">
 					<div class="profile__image">
-						<img src="http://placehold.it/500xt500" alt="" />
+						<img src="https://irp-cdn.multiscreensite.com/a58fce7e/dms3rep/multi/desktop/yohaan%20on%20white-960x959.jpg" alt="" />
 					</div>
 					<h3>yohaan</h3>
 					<div class="profile__details">
-						<h4>executive assistant</h4>
+						<h4>executive<br /> assistant</h4>
 						<h4><a href="https://twitter.com/benjaminhollway">@johnontwitter</a></h4>
 						<h4>Brighton, UK</h4>
 					</div>
