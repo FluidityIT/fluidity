@@ -22,6 +22,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
 		<!-- scripts -->
+		<script src="/assets/js/vendor/classie.js" type="text/javascript"></script>
 		<script src="/assets/js/scripts.js" type="text/javascript"></script>
 		<script src="https://use.fontawesome.com/044d29add3.js"></script>
 
