@@ -1,20 +1,37 @@
 .section--about {
-	background-color: palette(pink);
-	padding: 50px 0;
 	min-height: 570px;
+	padding: 50px 0;
+	background-color: palette(pink);
+
+	@include screen-max($screen-md) {
+		min-height: 750px;
+	}
 }
 
 .profile {
 	position: relative;
 	color: palette(pink, dark);
 
+	@include screen-max($screen-sm) {
+		margin-bottom: 40px;
+	}
+
 	.profile__image {
 		height: 200px;
 
+		@include screen-max($screen-sm) {
+			height: auto;
+		}
+
 		img {
-			width: 80%;
 			float: right;
+			width: 80%;
 			border-radius: 50%;
+
+			@include screen-max($screen-sm) {
+				float: none;
+				margin: 0 auto;
+			}
 		}
 	}
 
@@ -40,10 +57,19 @@
 			color: palette(pink, dark);
 			text-decoration: none;
 		}
+
+		@include screen-max($screen-sm) {
+			top: 100px;
+		}
 	}
 
 	p {
 		position: absolute;
 		margin-top: 120px;
+
+		@include screen-max($screen-sm) {
+			position: relative;
+			margin-top: 20px;
+		}
 	}
 }

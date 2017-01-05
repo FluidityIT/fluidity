@@ -1,19 +1,26 @@
 .section--services {
+	min-height: 500px;
+	padding: 30px 0;
 	background-color: palette(green);
-	height: 500px;
+
+	@include screen-max($screen-sm) {
+		padding: 20px 0;
+	}
 }
 
 .services--text {
-	margin-top: 88px;
-
 	p {
 		font-size: em(19px);
 	}
 }
 
 .nav--services {
-	margin-top: 88px;
+	margin-top: 70px;
 	border: 8px solid palette(orange, dark);
+
+	@include screen-max($screen-sm) {
+		margin-top: 0;
+	}
 
 	ul {
 		padding: 10px 40px;

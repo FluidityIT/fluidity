@@ -1,9 +1,14 @@
 .section--contact {
-	height: 600px;
+	min-height: 600px;
 	background-color: palette(purple, dark);
 
 	.column-absolute {
 		height: 600px;
+
+		@include screen-max($screen-md) {
+			height: 50px;
+			position: relative;
+		}
 	}
 
 	.form--contact {
@@ -17,12 +22,17 @@
 	span {
 		position: absolute;
 		top: -140px;
+		right: 0;
 		bottom: 0;
 		left: -100px;
 		overflow: hidden;
 		color: palette(pink, dark);
 		font-family: $sans;
 		font-size: em(680px);
+
+		@include screen-max($screen-md) {
+			display: none;
+		}
 	}
 
 	h2 {
@@ -33,6 +43,11 @@
 		font-size: em(180px);
 		line-height: 1.1;
 		transform: translateY(-50%);
+
+		@include screen-max($screen-md) {
+			font-size: em(60px);
+			margin-top: 20px;
+		}
 	}
 
 	.input--wrap {
@@ -71,4 +86,10 @@
 			resize: none;
 		}
 	}
+}
+
+.form-response {
+	display: none;
+	margin-top: 80px;
+	color: palette(white);
 }

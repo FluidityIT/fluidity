@@ -5,9 +5,22 @@
 	padding: 30px 0;
 	pointer-events: none;
 
+	@include screen-max($screen-sm) {
+		position: absolute;
+	}
+
 	.logo {
 		width: 330px;
 		transition: opacity ease-in-out $transition-time;
+
+		@include screen-max($screen-md) {
+			width: 280px;
+		}
+
+		@include screen-max($screen-sm) {
+			width: 200px;
+			margin: 0 auto;
+		}
 	}
 
 	&.smaller {
@@ -62,9 +75,20 @@
 	transition: opacity ease-in-out $transition-time;
 	pointer-events: all;
 
+	@include screen-max($screen-sm) {
+		top: 5px;
+		width: 100%;
+		padding: 0;
+	}
+
 	ul {
 		float: right;
 		width: 400px;
+
+		@include screen-max($screen-sm) {
+			float: none;
+			width: 100%;
+		}
 	}
 
 	li {
@@ -118,5 +142,9 @@
 		border: 0;
 		background-color: palette(pink, dark);
 		transition: ease-in-out $transition-time;
+
+		@include screen-max($screen-sm) {
+			display: none;
+		}
 	}
 }

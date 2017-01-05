@@ -18,11 +18,34 @@ html {
 .column-relative {
 	position: relative;
 	height: 100vh;
+
+	@include screen-max($screen-sm) {
+		height: auto;
+	}
 }
 
 .column-absolute {
 	position: absolute;
 	height: 100vh;
+
+	@include screen-max($screen-sm) {
+		position: relative;
+		height: auto;
+	}
+}
+
+.small-only {
+	display: none;
+
+	@include screen-max($screen-sm) {
+		display: block;
+	}
+}
+
+.medium-up {
+	@include screen-max($screen-sm) {
+		display: none;
+	}
 }
 
 @import 'mobile';
