@@ -20,7 +20,19 @@
 	</div>
 	<div class="page-section section--services" id="services">
 		<div class="row">
-			<div class="column medium-6 large-7">
+		<div class="column small-12 medium-6 medium-push-6 large-5 large-push-7">
+				<div class="nav nav--services">
+					<ul>
+						<li id="branding" class="current">branding</li>
+						<li id="design">design</li>
+						<li id="development">development</li>
+						<li id="social">social</li>
+						<li id="services">cloud services</li>
+						<li id="support">it support</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column small-12 medium-6 medium-pull-6 large-7 large-pull-5">
 				<div id="branding" class="services--text text--branding show">
 					<p>However much you believe in branding, we believe that technology is the engine behind good branding.</p>
 					<p>We work with our own team as well as branding partners to make you look good, and show off what makes you you.</p>
@@ -50,18 +62,6 @@
 					<p>Support for devices running Windows, Macs, iOS or Android as well as servers and networks is all the norm for us.</p>
 					<p>We enjoy working closely with our customers (most of the time!) to ensure you can work efficiently. We're also known for talking your language, so you'll be able to understand us!</p>
 					<p>Some of our customers are technophobes, and others are technophiles. We work with both.</p>
-				</div>
-			</div>
-			<div class="column medium-6 large-5">
-				<div class="nav nav--services">
-					<ul>
-						<li id="branding" class="current">branding</li>
-						<li id="design">design</li>
-						<li id="development">development</li>
-						<li id="social">social</li>
-						<li id="services">cloud services</li>
-						<li id="support">it support</li>
-					</ul>
 				</div>
 			</div>
 		</div>

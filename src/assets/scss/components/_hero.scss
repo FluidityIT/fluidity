@@ -19,7 +19,7 @@
 		transform: translateY(-50%);
 
 		@include screen-max($screen-md) {
-			font-size: em(150px);
+			font-size: em(140px);
 		}
 
 		@include screen-max($screen-sm) {
@@ -35,11 +35,13 @@
 	.text-wrap {
 		position: absolute;
 		top: 50%;
+		padding-right: 1em;
 		transform: translateY(-50%);
 
 		@include screen-max($screen-sm) {
 			position: relative;
 			top: 0;
+			padding-right: 0;
 			transform: none;
 		}
 	}
