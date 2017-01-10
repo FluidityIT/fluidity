@@ -4,6 +4,11 @@
 	min-height: 700px;
 	background-color: palette(blue);
 
+	@include screen-max($screen-md) {
+		min-height: 430px;
+		padding-top: 50px;
+	}
+
 	@include screen-max($screen-sm) {
 		height: auto;
 		padding: 20px 0;
@@ -37,6 +42,10 @@
 		top: 50%;
 		padding-right: 1em;
 		transform: translateY(-50%);
+
+		@include screen-max($screen-md) {
+			margin-bottom: 50px;
+		}
 
 		@include screen-max($screen-sm) {
 			position: relative;

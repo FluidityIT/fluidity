@@ -14,7 +14,8 @@
 		transition: opacity ease-in-out $transition-time;
 
 		@include screen-max($screen-md) {
-			width: 280px;
+			width: 220px;
+			padding-top: 10px;
 		}
 
 		@include screen-max($screen-sm) {
@@ -39,8 +40,8 @@
 
 		&.toggle {
 			.nav--main {
+				background-color: palette(blue, dark);
 				opacity: 1;
-				background-color: palette(purple);
 			}
 		}
 	}
@@ -53,10 +54,14 @@
 	z-index: 11;
 	width: 100px;
 	height: 100px;
-	background-color: palette(blue, dark);
+	background-color: palette(orange, dark);
 	opacity: 0;
 	transition: opacity ease-in-out $transition-time;
 	cursor: pointer;
+
+	@include screen-max($screen-md) {
+		left: 10px;
+	}
 
 	.logo-mini {
 		position: relative;
@@ -68,12 +73,19 @@
 
 .nav--main {
 	position: relative;
-	top: -101px;
+	top: -100.5px;
 	width: calc(100% + 30px);
 	height: 100px;
 	padding: 30px 30px 30px 0;
 	transition: opacity ease-in-out $transition-time;
 	pointer-events: all;
+
+	@include screen-max($screen-md) {
+		top: -82px;
+		left: 10px;
+		width: calc(100%);
+		padding-right: 15px;
+	}
 
 	@include screen-max($screen-sm) {
 		top: 5px;
@@ -97,8 +109,8 @@
 		margin-right: -4px;
 		font-family: $sans;
 		font-size: em(20px);
-		text-transform: lowercase;
 		text-align: center;
+		text-transform: lowercase;
 		transition: all ease-in-out $transition-time;
 
 		&:hover {

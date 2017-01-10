@@ -1,7 +1,7 @@
 .section--services {
 	min-height: 500px;
 	padding: 30px 0;
-	background-color: palette(green);
+	background-color: palette(pink);
 
 	@include screen-max($screen-sm) {
 		padding: 20px 0;
@@ -27,7 +27,7 @@
 	}
 
 	li {
-		color: palette(blue, dark);
+		color: palette(orange, dark);
 		font-family: $sans;
 		font-size: em(32px);
 		line-height: 1.5;
@@ -36,11 +36,11 @@
 		transition: color ease-in-out $transition-time;
 
 		&:hover {
-			color: palette(orange, dark);
+			color: palette(orange);
 		}
 
 		&.current {
-			color: palette(orange, dark);
+			color: palette(pink, dark);
 		}
 	}
 }

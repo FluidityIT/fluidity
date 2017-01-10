@@ -1,7 +1,7 @@
 .section--about {
 	min-height: 570px;
 	padding: 50px 0;
-	background-color: palette(pink);
+	background-color: palette(green);
 
 	@include screen-max($screen-md) {
 		min-height: 750px;
