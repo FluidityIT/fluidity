@@ -1581,17 +1581,18 @@ meta.foundation-data-attribute-namespace {
 
 .section--services {
   min-height: 500px;
-  padding: 30px 0;
+  padding: 70px 0;
   background-color: #F6C6DC; }
   @media screen and (max-width: 40em) {
     .section--services {
       padding: 20px 0; } }
 
 .services--text p {
-  font-size: 1.1875em; }
+  font-size: 1.1875em;
+  margin-top: 20px; }
 
 .nav--services {
-  margin-top: 70px;
+  margin-top: 20px;
   border: 8px solid #F1A662; }
   @media screen and (max-width: 40em) {
     .nav--services {
@@ -1612,12 +1613,12 @@ meta.foundation-data-attribute-namespace {
     .nav--services li.current {
       color: #E85598; }
 
-.section--about {
+.section--team {
   min-height: 570px;
   padding: 50px 0;
   background-color: #ECEFCB; }
   @media screen and (max-width: 64em) {
-    .section--about {
+    .section--team {
       min-height: 750px; } }
 
 .profile {

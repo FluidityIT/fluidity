@@ -23,50 +23,50 @@
 		<div class="column small-12 medium-6 medium-push-6 large-5 large-push-7">
 				<div class="nav nav--services">
 					<ul>
-						<li id="branding" class="current">branding</li>
-						<li id="design">design</li>
+						<li id="support" class="current">it support</li>
+						<li id="cloud">cloud services</li>
+						<li id="web">managed web</li>
+						<li id="branding">branding &amp; design</li>
 						<li id="development">development</li>
 						<li id="social">social</li>
-						<li id="services">cloud services</li>
-						<li id="support">it support</li>
 					</ul>
 				</div>
 			</div>
 			<div class="column small-12 medium-6 medium-pull-6 large-7 large-pull-5">
-				<div id="branding" class="services--text text--branding show">
-					<p>However much you believe in branding, we believe that technology is the engine behind good branding.</p>
-					<p>We work with our own team as well as branding partners to make you look good, and show off what makes you you.</p>
-					<p>No matter if you're a one-man-band, or a team of 25, we're keen to get to know what makes you tick, and ensure that your image and the technology behind it all line up.</p>
+				<div id="support" class="services--text text--support show">
+					<p>Some of our clients are technophobes, others are technophiles. We help both.</p>
+					<p>Support for macOS, iOS, Windows and Android devices as well as servers and networks is all familiar work for us.</p>
+					<p>We enjoy working closely with our customers to ensure you can work efficiently in a way that you enjoy. We also talk your language, so you'll be able to understand what we do!</p>
 				</div>
-				<div id="design" class="services--text text--design hidden">
-					<p>Good design is fundamental to how you are perceived, and also gives you confidence in how you come across</p>
-					<p>Alongisde branding, we pride ourselves in working with excellent designers to help create and shape your web and digital services.</p>
-					<p>We're happy to keep your online presence up-to-date and fresh with tweaks as well as complete redesigns of logos, websites and other projects.</p>
+				<div id="cloud" class="services--text text--cloud hidden">
+					<p>We make running your business in the cloud efficient and secure so that doing business can be a breeze.</p>
+					<p>Fluidity can manage and support many cloud services including Office 365, G-Suite (previously Google Apps), DropBox, CrashPlan, Spanning allowing you to get on a benefit from them.</p>
+					<p>Cloud services usually end up being far more cost effective than running your own infrastructure.</p>
 				</div>
-				<div id="development" class="services--text text--development hidden">
+				<div id="web" class="services--text text--web hidden">
 					<p>Technology should be fun to use and make businesses fly.</p>
 					<p>Websites, apps and other more bespoke software can cost a small fortune. We mix it in with our wider portfolio of services where possible and provide more accessible development services, while being careful to watch the quality of our work.</p>
 					<p>Web development is a key focus for the Fluidity brand, so get in touch if you're interested in a fresh website design.</p>
+				</div>
+				<div id="branding" class="services--text text--branding hidden">
+					<p>Whether or not you're a design fanatic, we get that technology is key to engaging people with your brand.</p>
+					<p>Our team can help create branding that shows off what makes you you. We also work with excellent designers to make it look the part.</p>
+					<p>We take care of printed and digital design from logos business cards to full-on redesigns. We do all this for one-man-bands and for bigger teams.</p>
+				</div>
+				<div id="development" class="services--text text--development hidden">
+					<p>Having the right building blocks in place is one thing, but connecting them well is another.</p>
+					<p>We work with our developers to integrate products well, making them work as a more coherent system.</p>
+					<p>We also provide development services for larger projects such as building apps and complex websites.</p>
 				</div>
 				<div id="social" class="services--text text--social hidden">
 					<p>Social Media is a must for any business wanting to engage with it's customers online</p>
 					<p>It can be expensive to outsource your social media. We aim to deliver a basic level of social media and content marketing to keep your brand visibility up.</p>
 					<p>You have enough to think about running your business, let us help make social media happen without breaking the bank.</p>
 				</div>
-				<div id="services" class="services--text text--cloud hidden">
-					<p>We make running your business in the cloud efficient and secure so doing business can be a breeze.</p>
-					<p>Fluidity can manage and support many cloud services including Office 365, G-Suite (previously Google Apps), DropBox, CrashPlan, Spanning allowing you to get on a benefit from them.</p>
-					<p>Cloud services usually end up being far more cost effective than running your own infrastructure.</p>
-				</div>
-				<div id="support" class="services--text text--support hidden">
-					<p>Support for devices running Windows, Macs, iOS or Android as well as servers and networks is all the norm for us.</p>
-					<p>We enjoy working closely with our customers (most of the time!) to ensure you can work efficiently. We're also known for talking your language, so you'll be able to understand us!</p>
-					<p>Some of our customers are technophobes, and others are technophiles. We work with both.</p>
-				</div>
 			</div>
 		</div>
 	</div>
-	<div class="page-section section--about" id="about">
+	<div class="page-section section--team" id="team">
 		<div class="row">
 			<div class="column small-12 medium-4">
 				<div class="profile">

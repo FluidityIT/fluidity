@@ -11,9 +11,9 @@
 			</div>
 			<nav class="nav nav--main">
 				<ul>
-					<li class="nav__item one"><a href="#index" title="">Home</a></li>
+					<li class="nav__item one"><a href="#index" title="">About</a></li>
 					<li class="nav__item two"><a href="#services" title="">Services</a></li>
-					<li class="nav__item three"><a href="#about" title="">About</a></li>
+					<li class="nav__item three"><a href="#team" title="">Team</a></li>
 					<li class="nav__item four"><a href="#contact" title="">Contact</a></li>
 					<hr />
 				</ul>
