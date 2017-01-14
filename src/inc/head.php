@@ -22,16 +22,16 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
 		<!-- scripts -->
-		<script src="/assets/js/vendor/classie.js" type="text/javascript"></script>
-		<script src="/assets/js/scripts.js" type="text/javascript"></script>
-		<script src="https://use.fontawesome.com/044d29add3.js"></script>
+		<script async src="/assets/js/vendor/classie.js" type="text/javascript"></script>
+		<script async src="/assets/js/scripts.js" type="text/javascript"></script>
+		<script async src="https://use.fontawesome.com/044d29add3.js"></script>
 
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 
 		<!-- IE specifics -->
 		<!--[if IE]><!-->
-			<script src="/assets/js/vendor/modernizr.js" type="text/javascript"></script>
+			<script defer src="/assets/js/vendor/modernizr.js" type="text/javascript"></script>
 		<!--<![endif]-->
 	</head>
 	<body>
