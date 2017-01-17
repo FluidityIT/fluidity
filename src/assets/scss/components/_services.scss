@@ -1,6 +1,6 @@
 .section--services {
 	min-height: 500px;
-	padding: 30px 0;
+	padding: 70px 0 30px;
 	background-color: palette(pink);
 
 	@include screen-max($screen-sm) {
@@ -15,7 +15,7 @@
 }
 
 .nav--services {
-	margin-top: 70px;
+	margin-top: 20px;
 	border: 8px solid palette(orange, dark);
 
 	@include screen-max($screen-sm) {
